@@ -25,7 +25,7 @@ object Q4andQ5 {
   
   def SumEven(n:Int,i:Int=2,result:Int=0):Any = {//recursive function for get Sum of even numbers less than n
     if(n<1){
-      println("Please enter positive integer")//If user enter  zero or negative number
+      println("n should be greater than 0")//If user enter  zero or negative number
     }
     else if(i<n){
       if(IsEven(i)){
