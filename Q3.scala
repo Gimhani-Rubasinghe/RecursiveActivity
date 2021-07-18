@@ -1,3 +1,4 @@
+//package Assignment
 object Q3 {
   def main(Args:Array[String]){
     Sum(5)//display 15(1+2+3+4+5)
