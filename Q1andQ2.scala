@@ -26,6 +26,7 @@ object Q1andQ2{
       return PrimeSeq(n,i+1)
     }
     else{
+      
       print("are prime numbers less than "+ n)
     }
   }
