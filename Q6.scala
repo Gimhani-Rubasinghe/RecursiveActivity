@@ -4,7 +4,7 @@ object Q6 {
   }
   def FibonacciSeq(n:Int,i:Int=1,j:Int=0,k:Int=1):Any ={//function to return the fibonacci numbers for given n
     if(n<1){
-      println("Please enter positive integer")//If user enter zero or negative number
+      println("n should be greater than 0")//If user enter zero or negative number
     }
     else if(i>n){        
        println()
